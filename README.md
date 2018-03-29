@@ -1,4 +1,4 @@
 ## Inner parts ##
 
 - [x] hello
-- [ ] bigdigits
+- [x] bigdigits
