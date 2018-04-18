@@ -5,4 +5,4 @@
 - [x] stacker
 - [x] americanise
 - [x] polar2cartesian
-- [] my bigdigits
+- [x] my bigdigits
