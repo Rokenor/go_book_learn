@@ -1,4 +1,4 @@
-## Inner parts ##
+## GOLang learning ##
 
 ### First section ###
 
