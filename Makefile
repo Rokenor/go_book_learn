@@ -8,3 +8,6 @@ stacker:
 
 americanise:
 	go run src/americanise/americanise.go src/americanise/input.txt src/americanise/output.txt
+
+polar2cartesian:
+	go run src/polar2cartesian/polar2cartesian.go
