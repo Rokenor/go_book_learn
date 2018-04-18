@@ -4,4 +4,4 @@
 - [x] bigdigits
 - [x] stacker
 - [x] americanise
-- [] polar2cartesian
+- [x] polar2cartesian
