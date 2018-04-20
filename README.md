@@ -13,4 +13,4 @@
 
 ### Second section ###
 
-- [] 
+- [x] statisics
