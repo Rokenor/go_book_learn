@@ -17,3 +17,6 @@ polar2cartesian:
 
 my_bigdigits:
 	go run src/my_bigdigits/my_bigdigits.go
+
+statistics:
+	go run src/statistics/statistics.go

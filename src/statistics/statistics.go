@@ -64,7 +64,12 @@ func processRequest(request *http.Request) ([]float64, string, bool) {
 }
 
 func formatStats(stats statistics) string {
-	return fmt.Sprintf(`<table border="1"><tr><th colspan="2">Results</th></tr><tr><td>Numbers</td><td>%v</td></tr><tr><td>Count</td><td>%d</td></tr><tr><td>Mean</td><td>%f</td></tr><tr><td>Median</td><td>%f</td></tr></table>`, stats.numbers, len(stats.numbers), stats.mean, stats.median)
+	return fmt.Sprintf(
+		`<table border="1"><tr><th colspan="2">Results</th></tr><tr><td>Numbers</td><td>%v</td></tr><tr><td>Count</td><td>%d</td></tr><tr><td>Mean</td><td>%f</td></tr><tr><td>Median</td><td>%f</td></tr></table>`,
+		stats.numbers,
+		len(stats.numbers),
+		stats.mean,
+		stats.median)
 }
 
 func getStats(numbers []float64) (stats statistics) {
